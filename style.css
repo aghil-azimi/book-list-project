@@ -1,0 +1,134 @@
+/* Global Styles */
+body {
+  font-family: Tahoma;
+  color: #444;
+  letter-spacing: 1px;
+  margin: 0;
+  direction: ltr ;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Container Styles */
+#container {
+  width: 90%;
+  max-width: 960px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+
+/* Page Banner Styles */
+#page-banner {
+  background: #eee;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#page-banner input {
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #444;
+}
+
+/* Book List Styles */
+#book-list {
+  margin: 30px;
+}
+
+#book-list h2 {
+  font-weight: normal;
+  text-align: left;
+  margin-right: 15px;
+}
+
+#book-list ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+#book-list li {
+  flex-basis: calc(33.33% - 20px);
+  padding: 20px;
+  border-right: 5px solid #ddd;
+  margin: 20px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+.name{
+  margin-left:0;
+}
+
+#book-list li:hover {
+  border-color: #9361bf;
+}
+
+.delete {
+  background: #9361bf;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+#hide{
+  display: flex;
+  justify-content:start;
+  margin-left: 4rem;
+
+}
+.delete:hover {
+  background: #333;
+}
+
+/* Add Book Form Styles */
+#add-book {
+  width: 400px;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#add-book input {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.button {
+  border: 1px solid #9361bf;
+  background: #9361bf;
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px 0;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.button:last-child {
+  margin-bottom: 0;
+}
